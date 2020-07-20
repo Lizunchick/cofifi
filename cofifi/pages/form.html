@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script type="text/javascript" src="../js/form.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles/mainStyle.css"/>
+    <link rel="stylesheet" href="styles/form.css"/>
+    <title>CofifiForm</title>
+</head>
+<body>
+<div id="headerMain">
+    <div id="header" >
+        <div class="row">
+            <div class="col-md-6"><h1>Сеть кофеен Cofifi</h1></div>
+            <div class="col-md-1.5"><input class="button"type="button" value="Главная" onclick="location.href='index.html'"></div>
+            <div class="col-md-2.4"><input class="button"type="button" value="Школа Бариста" onclick="location.href='school.html'"></div>
+            <div class="col-md-1.5"><input class="button"type="button" value="Кофейная карта" onclick="location.href='coffeetable.html'"></div>
+        </div>
+    </div>
+
+</div>
+
+<div class="login-block">
+    <h1>Введите свои данные</h1>
+    <form name="myBox" class="box" action="../php/form.php" method="post" onsubmit="return Check({name: this.name.value,
+                                                                                                email: this.email.value,
+                                                                                                phone: this.phone.value});">
+        <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-user ti-user"></i></span>
+                <input type="text" class="form-control" name="name" placeholder="Имя">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-user ti-user"></i></span>
+                <input type="text" class="form-control" name="phone" placeholder="Телефон">
+            </div>
+        </div>
+
+        <hr class="hr-xs">
+
+        <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-lock ti-unlock"></i></span>
+                <input type="email" class="form-control" name="email" placeholder="Email">
+            </div>
+        </div>
+
+        <input type="submit" class="btn btn-primary btn-block"  value="ЗАРЕГИСТРИРОВАТЬСЯ"></input>
+
+    </form>
+
+</div>
+
+
+<div class="footer">  &nbsp;Cofifi  All right reserved
+    <br></br>2020
+</div>
+
+</body>
+</html>

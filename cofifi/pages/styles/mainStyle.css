@@ -1,0 +1,79 @@
+#headerMain{
+    width: 780px;
+    height:80px;
+    margin:0px auto;
+    z-index: 0;
+}
+#header{
+    width: 780px;
+    height: 80px;
+    background: #f0d0c1;
+    position:fixed;
+    z-index: 9999;
+}
+
+.button  {
+    color: #ca8462; /* цвет текста */
+    /*text-decoration: none; !* убирать подчёркивание у ссылок *!*/
+    /*user-select: none; !* убирать выделение текста *!*/
+    background: #f0d0c1; /* фон кнопки *!*!*/
+    padding: .9em; /*1.5em; /* отступ от текста */
+    outline: none; /* убирать контур в Mozilla */
+    position: relative;
+    display: inline-block;
+    font-size: 90%;
+    font-weight: 900;
+    text-decoration: none;
+    text-shadow: 0 -1px 2px -moz-mac-accentdarkshadow;
+    border-radius: 3px;
+    box-shadow:
+            0 1px rgba(255,255,255,.2) inset,
+            0 3px 5px #925946,
+            0 0 1px 1px #ca8462;
+    transition: .2s ease-in-out;
+
+}
+.footer{
+    background: #925946;
+    color: #efe5d0;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    font-size: 90%;
+}
+.container-fluid{
+    width: 780px;
+    /*height: 1610px;*/
+    background: #ca8462;
+    margin:0px auto;
+    box-shadow:
+            0 20px 10px #925946 inset,
+            0 30px 10px 10px white,
+            0 0 1px 1px #ca8462;
+    transition: .2s ease-in-out;
+
+}
+
+
+
+.tenreason{
+    background: #d7897e;
+    color: #efe5d0;
+    text-align: center;
+    padding: 100px;
+    margin: 10px;
+    font-size: 90%;
+    clear:right;
+    /*clear: left;*/
+
+}
+a{
+    color: #efe5d0;
+    text-decoration: none;
+}
+a:hover{background: #925946; color:#f0d0c1; text-decoration: none;}
+
+p{
+    font-size: x-large;
+    size: 30px;
+}
